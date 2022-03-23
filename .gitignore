@@ -1,5 +1,6 @@
 ﻿.idea/
+.vscode/
 node_modules/
-package-lock.json
+dist/
 Thumbs.db
 .DS_Store

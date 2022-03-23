@@ -1,10 +1,10 @@
 body {
-	margin: 0 auto;
-	padding: 50px 0;
-	background-color: #ffffff;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 400;
-	-webkit-text-size-adjust: none;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: #0a0112;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    -webkit-text-size-adjust: none;
 }
 
 table {
@@ -13,13 +13,16 @@ table {
     margin: 0 auto;
     padding: 0;
     mso-table-lspace: 0pt;
-	mso-table-rspace: 0pt;
-	background-color: #ffffff;
+    mso-table-rspace: 0pt;
+    background-color: transparent;
 }
 
 .table-email {
-	box-shadow: -2px 1px 86px rgba(39, 39, 39, 0.2);
-	width: 640px;
+    width: 600px;
+    background-color: #0a0112;
+    background-image: url('../email-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 td {
@@ -36,85 +39,50 @@ img {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
 }
 
-.table-header,
-.table-footer {
-	background-color: #4891c8;
+a:hover {
+    text-decoration: underline;
 }
 
 .td-header-img {
-	padding: 5px 0 15px;
+    padding: 32px 32px 64px;
 }
 
 .logo {
-	max-width: 125px;
-	max-height: 80px;
+    margin-left: 0;
+    max-width: 195px;
+    max-height: 50px;
 }
 
 .wrap-td-medium {
-	padding: 30px 10px 40px;
+    padding: 0 32px 180px;
 }
 
-.td-medium-heading {
-	padding-bottom: 20px;
-	text-align: center;
-	color: #4891c8;
-	font-size: 28px;
-	line-height: 30px;
-	letter-spacing: -0.07px;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-weight: 400;
+.td-medium-title {
+    padding-bottom: 64px;
+}
+
+.title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 54px;
 }
 
 .td-medium-text {
-	font-size: 17px;
-	line-height: 17px;
-	letter-spacing: -0.04px;
-	color: #000000;
+    padding-bottom: 32px;
 }
 
-.medium-text-heading {
-	display: block;
+.label {
+    color: #a8acb3;
+    font-size: 11px;
 }
 
-.td-medium-subheading {
-	padding-bottom: 20px;
-	font-size: 17px;
-	line-height: 17px;
-	letter-spacing: -0.04px;
-	color: #000000;
-}
-
-.medium-text {
-	display: block;
-    width: 480px;
-}
-
-.td-medium-img {
-	text-align: center;
-	padding-top: 50px;
-}
-
-.td-footer {
-	text-align: center;
-	padding: 20px 10px 15px;
-}
-
-.footer-copyright {
-	padding-bottom: 15px;
-}
-
-.td-footer-text {
-	color: rgba(256, 256, 256, .6);
-	font-size: 11px;
-	line-height: 11px;
-	letter-spacing: -0.6px;
-	text-align: center;
-}
-
-.td-footer-link {
-	color: rgba(256, 256, 256, .6);
-	text-decoration: underline;
+.text {
+    padding-top: 8px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
 }
