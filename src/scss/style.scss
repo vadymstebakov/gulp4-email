@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     padding: 50px 0;
     background-color: #0a0112;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     -webkit-text-size-adjust: none;
@@ -14,12 +15,15 @@ table {
     padding: 0;
     mso-table-lspace: 0pt;
     mso-table-rspace: 0pt;
-    background-color: transparent;
+    color: #ffffff;
 }
 
 .table-email {
     width: 600px;
     background-color: #0a0112;
+}
+
+.table-inner-email {
     background-image: url('../email-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +38,6 @@ img {
     outline: none;
     -ms-interpolation-mode: bicubic;
     display: block;
-    margin: 0 auto;
     padding: 0;
 }
 
@@ -52,7 +55,6 @@ a:hover {
 }
 
 .logo {
-    margin-left: 0;
     max-width: 195px;
     max-height: 50px;
 }
@@ -85,4 +87,14 @@ a:hover {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
+
+    a {
+        font-size: 15px;
+        line-height: 22px;
+        color: #ffffff;
+    }
+}
+
+.text-message {
+    white-space: pre-wrap;
 }
